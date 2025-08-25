@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de Master League v0.1</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="title">
+        <h1>Gerador de Master League</h1>
+        <p class="version">versão 0.1</p>
+    </div>
+    <form id="inputs">
+        <div class="core">
+            <p class="row" id="welcome">Bem vindo ao Gerador de Master League! Selecione as áreas que deseja randomizar:</p>
+            <div class="row" id="times">
+                <input type="checkbox" name="time" value="true">
+                <label for="checktime">Randomizar time?</label>
+            </div>
+            <div class="row" id="tecnicos">
+                <input type="checkbox" name="tecnico" value="true">
+                <label for="checktime">Gerar um técnico para imitar?</label>
+            </div>
+            <div class="row" id="ligas">
+                <input type="checkbox" name="liga" value="true">
+                <label for="checktime">Randomizar liga?</label>
+            </div>
+            <div class="row" id="formacoes">
+                <input type="checkbox" name="heckformacao" value="true">
+                <label for="checktime">Randomizar formação?</label>
+            </div>
+
+            <div class="row" id="objetivos"></div>
+            <div class="row" id="desafios"></div>
+        </div> 
+    </form>
+
+    <div class="row">
+        <button id="button" onclick="executar()">Gerar</button>
+    </div>
+</body>
+</html>

@@ -1,0 +1,42 @@
+.title{
+    display: flex;
+    justify-content: center;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-size: larger;
+}
+
+.version{
+    color: gray;
+    font-size: 11px;
+}
+
+.row{
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-align: center;
+    margin: 10px;
+}
+
+.core{
+    background: #4a4244;
+    background: linear-gradient(316deg, rgba(74, 66, 68, 1) 1%, rgba(116, 121, 138, 1) 100%);
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: 50px;
+}
+
+#button{
+    border: 1px solid gray;
+    background-color: black;
+    color: gray;
+    font-family: "Quicksand", sans-serif;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
